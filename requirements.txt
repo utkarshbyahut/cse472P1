@@ -1,2 +1,7 @@
 Mastodon.py==2.1.4
 python-dotenv>=1.0.1
+openai>=1.30.0
+beautifulsoup4>=4.12.3
+wordcloud>=1.9.3
+tqdm>=4.66.4
+tenacity>=8.3.0

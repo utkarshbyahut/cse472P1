@@ -1,0 +1,33 @@
+=== Friendship Network Summary ===
+Nodes: 200
+Edges: 164
+Average degree (global): 1.64
+Connected components: 36 (LCC size: 138)
+Isolates: 21 (10.5% of nodes)
+Global clustering (transitivity): 0.0000
+Diameter (LCC): 137
+Mean of local avg-neighbor-degree: 1.69
+
+Top-10 by degree:
+     2  Techcrunch
+     2  cristophersfr
+     2  ericchereau
+     2  ehrlinger
+     2  katchwreck
+     2  hridiukani
+     2  alvasync
+     2  evnwdvs
+     2  ared349
+     2  codexring
+
+Top-10 by PageRank:
+  0.008017  kir0ul@sigmoid.social
+  0.008017  julialang@a.gup.pe
+  0.008017  jennybryan@fosstodon.org
+  0.008017  Theresacityinmymind@mas.to
+  0.008017  multicellgenome.bsky.social@bsky.brid.gy
+  0.007127  th3c4rp3n73r@mastodon.online
+  0.007127  Hickl@mastodon.online
+  0.006754  thebluehunter@infosec.exchange
+  0.006754  bitcodavid@hachyderm.io
+  0.006754  inundata@hachyderm.io

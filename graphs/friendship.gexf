@@ -1,0 +1,3245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-09-28">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="Friendship">
+    <attributes mode="static" class="edge">
+      <attribute id="8" title="reason" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="acct" type="string" />
+      <attribute id="1" title="username" type="string" />
+      <attribute id="2" title="display_name" type="string" />
+      <attribute id="3" title="url" type="string" />
+      <attribute id="4" title="followers" type="long" />
+      <attribute id="5" title="following" type="long" />
+      <attribute id="6" title="statuses" type="long" />
+      <attribute id="7" title="domain" type="string" />
+    </attributes>
+    <nodes>
+      <node id="106568336162842708" label="106568336162842708">
+        <attvalues>
+          <attvalue for="0" value="machinelearning" />
+          <attvalue for="1" value="machinelearning" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@machinelearning" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="466282" label="466282">
+        <attvalues>
+          <attvalue for="0" value="Techcrunch" />
+          <attvalue for="1" value="Techcrunch" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@Techcrunch" />
+          <attvalue for="4" value="95" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109310582157669913" label="109310582157669913">
+        <attvalues>
+          <attvalue for="0" value="TedUnderwood@sigmoid.social" />
+          <attvalue for="1" value="TedUnderwood" />
+          <attvalue for="2" value="Ted Underwood" />
+          <attvalue for="3" value="https://sigmoid.social/@TedUnderwood" />
+          <attvalue for="4" value="3989" />
+          <attvalue for="5" value="1252" />
+          <attvalue for="6" value="3128" />
+          <attvalue for="7" value="sigmoid.social" />
+        </attvalues>
+      </node>
+      <node id="112410769390923651" label="112410769390923651">
+        <attvalues>
+          <attvalue for="0" value="betinioheleno@me.dm" />
+          <attvalue for="1" value="betinioheleno" />
+          <attvalue for="2" value="Betini O. Heleno" />
+          <attvalue for="3" value="https://me.dm/@betinioheleno" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="me.dm" />
+        </attvalues>
+      </node>
+      <node id="110209382556951765" label="110209382556951765">
+        <attvalues>
+          <attvalue for="0" value="cristopherfreitas@me.dm" />
+          <attvalue for="1" value="cristopherfreitas" />
+          <attvalue for="2" value="Cristopher G S Freitas" />
+          <attvalue for="3" value="https://me.dm/@cristopherfreitas" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="14" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="me.dm" />
+        </attvalues>
+      </node>
+      <node id="109512352294413409" label="109512352294413409">
+        <attvalues>
+          <attvalue for="0" value="cristophersfr" />
+          <attvalue for="1" value="cristophersfr" />
+          <attvalue for="2" value="Cristopher Freitas" />
+          <attvalue for="3" value="https://mastodon.social/@cristophersfr" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="13" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="108290573442688697" label="108290573442688697">
+        <attvalues>
+          <attvalue for="0" value="ericchereau" />
+          <attvalue for="1" value="ericchereau" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@ericchereau" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109241814031202593" label="109241814031202593">
+        <attvalues>
+          <attvalue for="0" value="ehrlinger" />
+          <attvalue for="1" value="ehrlinger" />
+          <attvalue for="2" value="John Ehrlinger" />
+          <attvalue for="3" value="https://mastodon.social/@ehrlinger" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="42" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="17373" label="17373">
+        <attvalues>
+          <attvalue for="0" value="katchwreck" />
+          <attvalue for="1" value="katchwreck" />
+          <attvalue for="2" value="katch wreck" />
+          <attvalue for="3" value="https://mastodon.social/@katchwreck" />
+          <attvalue for="4" value="338" />
+          <attvalue for="5" value="977" />
+          <attvalue for="6" value="7473" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="115249419711571690" label="115249419711571690">
+        <attvalues>
+          <attvalue for="0" value="hridiukani" />
+          <attvalue for="1" value="hridiukani" />
+          <attvalue for="2" value="Hridi Ukani" />
+          <attvalue for="3" value="https://mastodon.social/@hridiukani" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="16" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="115089538973889362" label="115089538973889362">
+        <attvalues>
+          <attvalue for="0" value="alvasync" />
+          <attvalue for="1" value="alvasync" />
+          <attvalue for="2" value="alex" />
+          <attvalue for="3" value="https://mastodon.social/@alvasync" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114109878487078563" label="114109878487078563">
+        <attvalues>
+          <attvalue for="0" value="evnwdvs" />
+          <attvalue for="1" value="evnwdvs" />
+          <attvalue for="2" value="Evan Davis" />
+          <attvalue for="3" value="https://mastodon.social/@evnwdvs" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="46" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114262412004999232" label="114262412004999232">
+        <attvalues>
+          <attvalue for="0" value="ared349" />
+          <attvalue for="1" value="ared349" />
+          <attvalue for="2" value="adaaaa2" />
+          <attvalue for="3" value="https://mastodon.social/@ared349" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="775" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114146540975738872" label="114146540975738872">
+        <attvalues>
+          <attvalue for="0" value="codexring" />
+          <attvalue for="1" value="codexring" />
+          <attvalue for="2" value="Code•X" />
+          <attvalue for="3" value="https://mastodon.social/@codexring" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="36" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114089012055430609" label="114089012055430609">
+        <attvalues>
+          <attvalue for="0" value="aldoraine" />
+          <attvalue for="1" value="aldoraine" />
+          <attvalue for="2" value="Aldo Raine" />
+          <attvalue for="3" value="https://mastodon.social/@aldoraine" />
+          <attvalue for="4" value="23" />
+          <attvalue for="5" value="690" />
+          <attvalue for="6" value="29" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="1201113" label="1201113">
+        <attvalues>
+          <attvalue for="0" value="vd_m" />
+          <attvalue for="1" value="vd_m" />
+          <attvalue for="2" value="VD." />
+          <attvalue for="3" value="https://mastodon.social/@vd_m" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="54" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113937688324813242" label="113937688324813242">
+        <attvalues>
+          <attvalue for="0" value="darlinclem@infosec.exchange" />
+          <attvalue for="1" value="darlinclem" />
+          <attvalue for="2" value="DC" />
+          <attvalue for="3" value="https://infosec.exchange/@darlinclem" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="infosec.exchange" />
+        </attvalues>
+      </node>
+      <node id="113564163294563553" label="113564163294563553">
+        <attvalues>
+          <attvalue for="0" value="tunji" />
+          <attvalue for="1" value="tunji" />
+          <attvalue for="2" value="S Tunji Turner" />
+          <attvalue for="3" value="https://mastodon.social/@tunji" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="61" />
+          <attvalue for="6" value="105" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113540648331156718" label="113540648331156718">
+        <attvalues>
+          <attvalue for="0" value="j0t48" />
+          <attvalue for="1" value="j0t48" />
+          <attvalue for="2" value="J0T48" />
+          <attvalue for="3" value="https://mastodon.social/@j0t48" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111461683767803566" label="111461683767803566">
+        <attvalues>
+          <attvalue for="0" value="remilio" />
+          <attvalue for="1" value="remilio" />
+          <attvalue for="2" value="Emilio" />
+          <attvalue for="3" value="https://mastodon.social/@remilio" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="37" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111075665817440599" label="111075665817440599">
+        <attvalues>
+          <attvalue for="0" value="wolfstar76@hachyderm.io" />
+          <attvalue for="1" value="wolfstar76" />
+          <attvalue for="2" value="WolfStar76" />
+          <attvalue for="3" value="https://hachyderm.io/@wolfstar76" />
+          <attvalue for="4" value="85" />
+          <attvalue for="5" value="68" />
+          <attvalue for="6" value="536" />
+          <attvalue for="7" value="hachyderm.io" />
+        </attvalues>
+      </node>
+      <node id="110202076640151146" label="110202076640151146">
+        <attvalues>
+          <attvalue for="0" value="proxy@misskey.art" />
+          <attvalue for="1" value="proxy" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://misskey.art/@proxy" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="misskey.art" />
+        </attvalues>
+      </node>
+      <node id="113080048114789891" label="113080048114789891">
+        <attvalues>
+          <attvalue for="0" value="kimby@misskey.art" />
+          <attvalue for="1" value="kimby" />
+          <attvalue for="2" value="Kimby :c3::blobcat_fu_drawing_normal:" />
+          <attvalue for="3" value="https://misskey.art/@kimby" />
+          <attvalue for="4" value="102" />
+          <attvalue for="5" value="137" />
+          <attvalue for="6" value="1549" />
+          <attvalue for="7" value="misskey.art" />
+        </attvalues>
+      </node>
+      <node id="109839362806379658" label="109839362806379658">
+        <attvalues>
+          <attvalue for="0" value="ny4ramrp" />
+          <attvalue for="1" value="ny4ramrp" />
+          <attvalue for="2" value="sgv3zrx6" />
+          <attvalue for="3" value="https://mastodon.social/@ny4ramrp" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110186415993779749" label="110186415993779749">
+        <attvalues>
+          <attvalue for="0" value="jorge@social.bakunin.nohost.me" />
+          <attvalue for="1" value="jorge" />
+          <attvalue for="2" value="soloojos (GotoSocial)" />
+          <attvalue for="3" value="https://social.bakunin.nohost.me/@jorge" />
+          <attvalue for="4" value="336" />
+          <attvalue for="5" value="1765" />
+          <attvalue for="6" value="4033" />
+          <attvalue for="7" value="social.bakunin.nohost.me" />
+        </attvalues>
+      </node>
+      <node id="112396258678761329" label="112396258678761329">
+        <attvalues>
+          <attvalue for="0" value="phemz0" />
+          <attvalue for="1" value="phemz0" />
+          <attvalue for="2" value="Yarry" />
+          <attvalue for="3" value="https://mastodon.social/@phemz0" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="58" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="107537743192275948" label="107537743192275948">
+        <attvalues>
+          <attvalue for="0" value="fhblf" />
+          <attvalue for="1" value="fhblf" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@fhblf" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="26" />
+          <attvalue for="6" value="63" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="112413268297098956" label="112413268297098956">
+        <attvalues>
+          <attvalue for="0" value="kir0ul@sigmoid.social" />
+          <attvalue for="1" value="kir0ul" />
+          <attvalue for="2" value="kir0ul" />
+          <attvalue for="3" value="https://sigmoid.social/@kir0ul" />
+          <attvalue for="4" value="204" />
+          <attvalue for="5" value="1577" />
+          <attvalue for="6" value="1168" />
+          <attvalue for="7" value="sigmoid.social" />
+        </attvalues>
+      </node>
+      <node id="191308" label="191308">
+        <attvalues>
+          <attvalue for="0" value="kir0ul@mastodon.zaclys.com" />
+          <attvalue for="1" value="kir0ul" />
+          <attvalue for="2" value="kir0ul" />
+          <attvalue for="3" value="https://mastodon.zaclys.com/@kir0ul" />
+          <attvalue for="4" value="128" />
+          <attvalue for="5" value="1130" />
+          <attvalue for="6" value="1531" />
+          <attvalue for="7" value="mastodon.zaclys.com" />
+        </attvalues>
+      </node>
+      <node id="111794970557834988" label="111794970557834988">
+        <attvalues>
+          <attvalue for="0" value="altinhoxha" />
+          <attvalue for="1" value="altinhoxha" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@altinhoxha" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111720197563788258" label="111720197563788258">
+        <attvalues>
+          <attvalue for="0" value="thebluehunter@infosec.exchange" />
+          <attvalue for="1" value="thebluehunter" />
+          <attvalue for="2" value="Blue Hunter" />
+          <attvalue for="3" value="https://infosec.exchange/@thebluehunter" />
+          <attvalue for="4" value="32" />
+          <attvalue for="5" value="454" />
+          <attvalue for="6" value="32" />
+          <attvalue for="7" value="infosec.exchange" />
+        </attvalues>
+      </node>
+      <node id="110674062271339016" label="110674062271339016">
+        <attvalues>
+          <attvalue for="0" value="filipzamorsky" />
+          <attvalue for="1" value="filipzamorsky" />
+          <attvalue for="2" value="Filip Zamorsky" />
+          <attvalue for="3" value="https://mastodon.social/@filipzamorsky" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="57" />
+          <attvalue for="6" value="46" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110731018082807836" label="110731018082807836">
+        <attvalues>
+          <attvalue for="0" value="arman@mastodon.nu" />
+          <attvalue for="1" value="arman" />
+          <attvalue for="2" value="Arman Borghem" />
+          <attvalue for="3" value="https://mastodon.nu/@arman" />
+          <attvalue for="4" value="78" />
+          <attvalue for="5" value="612" />
+          <attvalue for="6" value="159" />
+          <attvalue for="7" value="mastodon.nu" />
+        </attvalues>
+      </node>
+      <node id="111609078134887957" label="111609078134887957">
+        <attvalues>
+          <attvalue for="0" value="blackrosewhitewulf" />
+          <attvalue for="1" value="blackrosewhitewulf" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@blackrosewhitewulf" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110409650171151990" label="110409650171151990">
+        <attvalues>
+          <attvalue for="0" value="valentebruno" />
+          <attvalue for="1" value="valentebruno" />
+          <attvalue for="2" value="valentebruno" />
+          <attvalue for="3" value="https://mastodon.social/@valentebruno" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="57" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="108131746904364667" label="108131746904364667">
+        <attvalues>
+          <attvalue for="0" value="Shortmaier" />
+          <attvalue for="1" value="Shortmaier" />
+          <attvalue for="2" value="Florian Kurzmaier" />
+          <attvalue for="3" value="https://mastodon.social/@Shortmaier" />
+          <attvalue for="4" value="69" />
+          <attvalue for="5" value="697" />
+          <attvalue for="6" value="127" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111345077324768720" label="111345077324768720">
+        <attvalues>
+          <attvalue for="0" value="codeespresso" />
+          <attvalue for="1" value="codeespresso" />
+          <attvalue for="2" value="codeespresso" />
+          <attvalue for="3" value="https://mastodon.social/@codeespresso" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="14" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109326415611965441" label="109326415611965441">
+        <attvalues>
+          <attvalue for="0" value="horatiupopovici@mas.to" />
+          <attvalue for="1" value="horatiupopovici" />
+          <attvalue for="2" value="Horatiu Popovici" />
+          <attvalue for="3" value="https://mas.to/@horatiupopovici" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="206" />
+          <attvalue for="6" value="30" />
+          <attvalue for="7" value="mas.to" />
+        </attvalues>
+      </node>
+      <node id="110129807492588175" label="110129807492588175">
+        <attvalues>
+          <attvalue for="0" value="bitcodavid@hachyderm.io" />
+          <attvalue for="1" value="bitcodavid" />
+          <attvalue for="2" value="BitcoDavid #ResistTrump" />
+          <attvalue for="3" value="https://hachyderm.io/@bitcodavid" />
+          <attvalue for="4" value="213" />
+          <attvalue for="5" value="365" />
+          <attvalue for="6" value="4668" />
+          <attvalue for="7" value="hachyderm.io" />
+        </attvalues>
+      </node>
+      <node id="110354214649252667" label="110354214649252667">
+        <attvalues>
+          <attvalue for="0" value="gromsum" />
+          <attvalue for="1" value="gromsum" />
+          <attvalue for="2" value="Wilhelm" />
+          <attvalue for="3" value="https://mastodon.social/@gromsum" />
+          <attvalue for="4" value="7" />
+          <attvalue for="5" value="292" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110769831355713342" label="110769831355713342">
+        <attvalues>
+          <attvalue for="0" value="Cestlheuredu4heures" />
+          <attvalue for="1" value="Cestlheuredu4heures" />
+          <attvalue for="2" value="Cestlheuredu4heures" />
+          <attvalue for="3" value="https://mastodon.social/@Cestlheuredu4heures" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="98" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110766961983485266" label="110766961983485266">
+        <attvalues>
+          <attvalue for="0" value="Ffraxic" />
+          <attvalue for="1" value="Ffraxic" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@Ffraxic" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="146" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110667341114696688" label="110667341114696688">
+        <attvalues>
+          <attvalue for="0" value="sconesfortea" />
+          <attvalue for="1" value="sconesfortea" />
+          <attvalue for="2" value="SconesForTea" />
+          <attvalue for="3" value="https://mastodon.social/@sconesfortea" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="120" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110652824289488454" label="110652824289488454">
+        <attvalues>
+          <attvalue for="0" value="gabohar" />
+          <attvalue for="1" value="gabohar" />
+          <attvalue for="2" value="Gabohar" />
+          <attvalue for="3" value="https://mastodon.social/@gabohar" />
+          <attvalue for="4" value="20" />
+          <attvalue for="5" value="265" />
+          <attvalue for="6" value="213" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109302779234360491" label="109302779234360491">
+        <attvalues>
+          <attvalue for="0" value="jose87" />
+          <attvalue for="1" value="jose87" />
+          <attvalue for="2" value="Jose :mastodon:" />
+          <attvalue for="3" value="https://mastodon.social/@jose87" />
+          <attvalue for="4" value="55" />
+          <attvalue for="5" value="228" />
+          <attvalue for="6" value="254" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109824254131337909" label="109824254131337909">
+        <attvalues>
+          <attvalue for="0" value="vfnb3A8" />
+          <attvalue for="1" value="vfnb3A8" />
+          <attvalue for="2" value="mM@Hxy9T" />
+          <attvalue for="3" value="https://mastodon.social/@vfnb3A8" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="77" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110537182327606711" label="110537182327606711">
+        <attvalues>
+          <attvalue for="0" value="szh" />
+          <attvalue for="1" value="szh" />
+          <attvalue for="2" value="Daniel Shen" />
+          <attvalue for="3" value="https://mastodon.social/@szh" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="14" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109286951501582812" label="109286951501582812">
+        <attvalues>
+          <attvalue for="0" value="joshbressers@infosec.exchange" />
+          <attvalue for="1" value="joshbressers" />
+          <attvalue for="2" value="Josh Bressers" />
+          <attvalue for="3" value="https://infosec.exchange/@joshbressers" />
+          <attvalue for="4" value="2427" />
+          <attvalue for="5" value="830" />
+          <attvalue for="6" value="762" />
+          <attvalue for="7" value="infosec.exchange" />
+        </attvalues>
+      </node>
+      <node id="110235069989497378" label="110235069989497378">
+        <attvalues>
+          <attvalue for="0" value="KouThor" />
+          <attvalue for="1" value="KouThor" />
+          <attvalue for="2" value="KouThor" />
+          <attvalue for="3" value="https://mastodon.social/@KouThor" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="92" />
+          <attvalue for="6" value="97" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="13179" label="13179">
+        <attvalues>
+          <attvalue for="0" value="Mastodon" />
+          <attvalue for="1" value="Mastodon" />
+          <attvalue for="2" value="Mastodon" />
+          <attvalue for="3" value="https://mastodon.social/@Mastodon" />
+          <attvalue for="4" value="849612" />
+          <attvalue for="5" value="35" />
+          <attvalue for="6" value="372" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="870841" label="870841">
+        <attvalues>
+          <attvalue for="0" value="alwinin" />
+          <attvalue for="1" value="alwinin" />
+          <attvalue for="2" value="SelfPubShelf – Indie Author" />
+          <attvalue for="3" value="https://mastodon.social/@alwinin" />
+          <attvalue for="4" value="75" />
+          <attvalue for="5" value="869" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="115184500281635609" label="115184500281635609">
+        <attvalues>
+          <attvalue for="0" value="evanwill" />
+          <attvalue for="1" value="evanwill" />
+          <attvalue for="2" value="evanwill" />
+          <attvalue for="3" value="https://mastodon.social/@evanwill" />
+          <attvalue for="4" value="45" />
+          <attvalue for="5" value="168" />
+          <attvalue for="6" value="230" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="115120625779867465" label="115120625779867465">
+        <attvalues>
+          <attvalue for="0" value="olafdahl" />
+          <attvalue for="1" value="olafdahl" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@olafdahl" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="18" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="115091361782854204" label="115091361782854204">
+        <attvalues>
+          <attvalue for="0" value="dittygoops" />
+          <attvalue for="1" value="dittygoops" />
+          <attvalue for="2" value="dittygoops" />
+          <attvalue for="3" value="https://mastodon.social/@dittygoops" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114580550524447611" label="114580550524447611">
+        <attvalues>
+          <attvalue for="0" value="ieeespectrum" />
+          <attvalue for="1" value="ieeespectrum" />
+          <attvalue for="2" value="IEEE Spectrum" />
+          <attvalue for="3" value="https://mastodon.social/@ieeespectrum" />
+          <attvalue for="4" value="1359" />
+          <attvalue for="5" value="401" />
+          <attvalue for="6" value="178" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="115003439810752909" label="115003439810752909">
+        <attvalues>
+          <attvalue for="0" value="t_duan" />
+          <attvalue for="1" value="t_duan" />
+          <attvalue for="2" value="Tinghui Duan (段庭辉)" />
+          <attvalue for="3" value="https://mastodon.social/@t_duan" />
+          <attvalue for="4" value="63" />
+          <attvalue for="5" value="148" />
+          <attvalue for="6" value="19" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114871491455669099" label="114871491455669099">
+        <attvalues>
+          <attvalue for="0" value="dh2026daejeon" />
+          <attvalue for="1" value="dh2026daejeon" />
+          <attvalue for="2" value="DH2026" />
+          <attvalue for="3" value="https://mastodon.social/@dh2026daejeon" />
+          <attvalue for="4" value="178" />
+          <attvalue for="5" value="506" />
+          <attvalue for="6" value="175" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113402170275931730" label="113402170275931730">
+        <attvalues>
+          <attvalue for="0" value="SARAHINDRYANIAZIZAH" />
+          <attvalue for="1" value="SARAHINDRYANIAZIZAH" />
+          <attvalue for="2" value="SARAH INDRYANI AZIZAH" />
+          <attvalue for="3" value="https://mastodon.social/@SARAHINDRYANIAZIZAH" />
+          <attvalue for="4" value="29" />
+          <attvalue for="5" value="802" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="1292897" label="1292897">
+        <attvalues>
+          <attvalue for="0" value="diegodlh" />
+          <attvalue for="1" value="diegodlh" />
+          <attvalue for="2" value="Diego de la Hera" />
+          <attvalue for="3" value="https://mastodon.social/@diegodlh" />
+          <attvalue for="4" value="181" />
+          <attvalue for="5" value="524" />
+          <attvalue for="6" value="99" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="10943" label="10943">
+        <attvalues>
+          <attvalue for="0" value="jbr" />
+          <attvalue for="1" value="jbr" />
+          <attvalue for="2" value="jbr" />
+          <attvalue for="3" value="https://mastodon.social/@jbr" />
+          <attvalue for="4" value="232" />
+          <attvalue for="5" value="406" />
+          <attvalue for="6" value="1067" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114365853169933224" label="114365853169933224">
+        <attvalues>
+          <attvalue for="0" value="Duesie" />
+          <attvalue for="1" value="Duesie" />
+          <attvalue for="2" value="Duesie" />
+          <attvalue for="3" value="https://mastodon.social/@Duesie" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="112461634985138485" label="112461634985138485">
+        <attvalues>
+          <attvalue for="0" value="parsaaz" />
+          <attvalue for="1" value="parsaaz" />
+          <attvalue for="2" value="Parsa Azari" />
+          <attvalue for="3" value="https://mastodon.social/@parsaaz" />
+          <attvalue for="4" value="306" />
+          <attvalue for="5" value="4068" />
+          <attvalue for="6" value="52" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113889939967765256" label="113889939967765256">
+        <attvalues>
+          <attvalue for="0" value="fchabot" />
+          <attvalue for="1" value="fchabot" />
+          <attvalue for="2" value="Fanny" />
+          <attvalue for="3" value="https://mastodon.social/@fchabot" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="162" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113442126244659965" label="113442126244659965">
+        <attvalues>
+          <attvalue for="0" value="mthpvg" />
+          <attvalue for="1" value="mthpvg" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@mthpvg" />
+          <attvalue for="4" value="17" />
+          <attvalue for="5" value="72" />
+          <attvalue for="6" value="87" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113856844671777627" label="113856844671777627">
+        <attvalues>
+          <attvalue for="0" value="kamleshsuresh" />
+          <attvalue for="1" value="kamleshsuresh" />
+          <attvalue for="2" value="Kamlesh Suresh" />
+          <attvalue for="3" value="https://mastodon.social/@kamleshsuresh" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113435271589968932" label="113435271589968932">
+        <attvalues>
+          <attvalue for="0" value="agoutsmedt" />
+          <attvalue for="1" value="agoutsmedt" />
+          <attvalue for="2" value="Aurélien Goutsmedt" />
+          <attvalue for="3" value="https://mastodon.social/@agoutsmedt" />
+          <attvalue for="4" value="85" />
+          <attvalue for="5" value="447" />
+          <attvalue for="6" value="29" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113763816994203004" label="113763816994203004">
+        <attvalues>
+          <attvalue for="0" value="sheringford" />
+          <attvalue for="1" value="sheringford" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@sheringford" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="15" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113692608122874001" label="113692608122874001">
+        <attvalues>
+          <attvalue for="0" value="ms192" />
+          <attvalue for="1" value="ms192" />
+          <attvalue for="2" value="MS192" />
+          <attvalue for="3" value="https://mastodon.social/@ms192" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="97" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113743126042402337" label="113743126042402337">
+        <attvalues>
+          <attvalue for="0" value="Aalena789" />
+          <attvalue for="1" value="Aalena789" />
+          <attvalue for="2" value="Alnena" />
+          <attvalue for="3" value="https://mastodon.social/@Aalena789" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113726377529232531" label="113726377529232531">
+        <attvalues>
+          <attvalue for="0" value="davidgraver" />
+          <attvalue for="1" value="davidgraver" />
+          <attvalue for="2" value="DavidGraver" />
+          <attvalue for="3" value="https://mastodon.social/@davidgraver" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="36" />
+          <attvalue for="6" value="73" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113701711776850637" label="113701711776850637">
+        <attvalues>
+          <attvalue for="0" value="dotsie" />
+          <attvalue for="1" value="dotsie" />
+          <attvalue for="2" value="Allie!" />
+          <attvalue for="3" value="https://mastodon.social/@dotsie" />
+          <attvalue for="4" value="242" />
+          <attvalue for="5" value="1263" />
+          <attvalue for="6" value="375" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113302576248911632" label="113302576248911632">
+        <attvalues>
+          <attvalue for="0" value="notdaniel_" />
+          <attvalue for="1" value="notdaniel_" />
+          <attvalue for="2" value="Dan" />
+          <attvalue for="3" value="https://mastodon.social/@notdaniel_" />
+          <attvalue for="4" value="157" />
+          <attvalue for="5" value="1315" />
+          <attvalue for="6" value="346" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113612106840946806" label="113612106840946806">
+        <attvalues>
+          <attvalue for="0" value="ashutoshmehra" />
+          <attvalue for="1" value="ashutoshmehra" />
+          <attvalue for="2" value="Ashutosh Mehra" />
+          <attvalue for="3" value="https://mastodon.social/@ashutoshmehra" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="98" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113580466842122008" label="113580466842122008">
+        <attvalues>
+          <attvalue for="0" value="alex_lee" />
+          <attvalue for="1" value="alex_lee" />
+          <attvalue for="2" value="Barthes Simpson" />
+          <attvalue for="3" value="https://mastodon.social/@alex_lee" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113485005846936679" label="113485005846936679">
+        <attvalues>
+          <attvalue for="0" value="ThadMcIlroy" />
+          <attvalue for="1" value="ThadMcIlroy" />
+          <attvalue for="2" value="Thad McIlroy" />
+          <attvalue for="3" value="https://mastodon.social/@ThadMcIlroy" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113350078674311227" label="113350078674311227">
+        <attvalues>
+          <attvalue for="0" value="sugiyama738" />
+          <attvalue for="1" value="sugiyama738" />
+          <attvalue for="2" value="Shun Sugiyama" />
+          <attvalue for="3" value="https://mastodon.social/@sugiyama738" />
+          <attvalue for="4" value="161" />
+          <attvalue for="5" value="153" />
+          <attvalue for="6" value="62" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111866393669096381" label="111866393669096381">
+        <attvalues>
+          <attvalue for="0" value="vhtc" />
+          <attvalue for="1" value="vhtc" />
+          <attvalue for="2" value="VHTC" />
+          <attvalue for="3" value="https://mastodon.social/@vhtc" />
+          <attvalue for="4" value="950" />
+          <attvalue for="5" value="4387" />
+          <attvalue for="6" value="809" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113233052447315116" label="113233052447315116">
+        <attvalues>
+          <attvalue for="0" value="ndrezner" />
+          <attvalue for="1" value="ndrezner" />
+          <attvalue for="2" value="Nathan Drezner" />
+          <attvalue for="3" value="https://mastodon.social/@ndrezner" />
+          <attvalue for="4" value="43" />
+          <attvalue for="5" value="128" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="107057825694335801" label="107057825694335801">
+        <attvalues>
+          <attvalue for="0" value="zarirmadon" />
+          <attvalue for="1" value="zarirmadon" />
+          <attvalue for="2" value="Zarir Madon" />
+          <attvalue for="3" value="https://mastodon.social/@zarirmadon" />
+          <attvalue for="4" value="83" />
+          <attvalue for="5" value="211" />
+          <attvalue for="6" value="146" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110652193121739862" label="110652193121739862">
+        <attvalues>
+          <attvalue for="0" value="saadfrhan" />
+          <attvalue for="1" value="saadfrhan" />
+          <attvalue for="2" value="Saad Farhan" />
+          <attvalue for="3" value="https://mastodon.social/@saadfrhan" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="26" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111266912401312685" label="111266912401312685">
+        <attvalues>
+          <attvalue for="0" value="tshwanelo" />
+          <attvalue for="1" value="tshwanelo" />
+          <attvalue for="2" value="Tshwanelo" />
+          <attvalue for="3" value="https://mastodon.social/@tshwanelo" />
+          <attvalue for="4" value="344" />
+          <attvalue for="5" value="1811" />
+          <attvalue for="6" value="1104" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="112910721039832763" label="112910721039832763">
+        <attvalues>
+          <attvalue for="0" value="AlgoCompSynth" />
+          <attvalue for="1" value="AlgoCompSynth" />
+          <attvalue for="2" value="AlgoCompSynth by znmeb 🇺🇦" />
+          <attvalue for="3" value="https://mastodon.social/@AlgoCompSynth" />
+          <attvalue for="4" value="3415" />
+          <attvalue for="5" value="5975" />
+          <attvalue for="6" value="2261" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="112843801096621182" label="112843801096621182">
+        <attvalues>
+          <attvalue for="0" value="mariellk" />
+          <attvalue for="1" value="mariellk" />
+          <attvalue for="2" value="Maribel Reyes" />
+          <attvalue for="3" value="https://mastodon.social/@mariellk" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="166" />
+          <attvalue for="6" value="32" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="559173" label="559173">
+        <attvalues>
+          <attvalue for="0" value="arossp" />
+          <attvalue for="1" value="arossp" />
+          <attvalue for="2" value="Aaron Ross Powell ☸️" />
+          <attvalue for="3" value="https://mastodon.social/@arossp" />
+          <attvalue for="4" value="948" />
+          <attvalue for="5" value="253" />
+          <attvalue for="6" value="4130" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="112634612724956519" label="112634612724956519">
+        <attvalues>
+          <attvalue for="0" value="nevmenandr" />
+          <attvalue for="1" value="nevmenandr" />
+          <attvalue for="2" value="Boris Orekhov" />
+          <attvalue for="3" value="https://mastodon.social/@nevmenandr" />
+          <attvalue for="4" value="26" />
+          <attvalue for="5" value="451" />
+          <attvalue for="6" value="117" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109374616082900927" label="109374616082900927">
+        <attvalues>
+          <attvalue for="0" value="jadp" />
+          <attvalue for="1" value="jadp" />
+          <attvalue for="2" value="Joseph A di Paolantonio" />
+          <attvalue for="3" value="https://mastodon.social/@jadp" />
+          <attvalue for="4" value="741" />
+          <attvalue for="5" value="2438" />
+          <attvalue for="6" value="44577" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="39894" label="39894">
+        <attvalues>
+          <attvalue for="0" value="coty" />
+          <attvalue for="1" value="coty" />
+          <attvalue for="2" value="Coty Rosenblath" />
+          <attvalue for="3" value="https://mastodon.social/@coty" />
+          <attvalue for="4" value="498" />
+          <attvalue for="5" value="1223" />
+          <attvalue for="6" value="2074" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="112466812316237320" label="112466812316237320">
+        <attvalues>
+          <attvalue for="0" value="CuriOuroboros" />
+          <attvalue for="1" value="CuriOuroboros" />
+          <attvalue for="2" value="Tammy" />
+          <attvalue for="3" value="https://mastodon.social/@CuriOuroboros" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="108196551559051903" label="108196551559051903">
+        <attvalues>
+          <attvalue for="0" value="wildebees" />
+          <attvalue for="1" value="wildebees" />
+          <attvalue for="2" value="Wessel van Rensburg" />
+          <attvalue for="3" value="https://mastodon.social/@wildebees" />
+          <attvalue for="4" value="234" />
+          <attvalue for="5" value="101" />
+          <attvalue for="6" value="1126" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="213939" label="213939">
+        <attvalues>
+          <attvalue for="0" value="raiderrobert" />
+          <attvalue for="1" value="raiderrobert" />
+          <attvalue for="2" value="Robert Roskam" />
+          <attvalue for="3" value="https://mastodon.social/@raiderrobert" />
+          <attvalue for="4" value="3201" />
+          <attvalue for="5" value="58" />
+          <attvalue for="6" value="3157" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109252341754783953" label="109252341754783953">
+        <attvalues>
+          <attvalue for="0" value="keithwilson" />
+          <attvalue for="1" value="keithwilson" />
+          <attvalue for="2" value="Dr Keith Wilson 💭" />
+          <attvalue for="3" value="https://mastodon.social/@keithwilson" />
+          <attvalue for="4" value="1423" />
+          <attvalue for="5" value="620" />
+          <attvalue for="6" value="2156" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="112339386306332928" label="112339386306332928">
+        <attvalues>
+          <attvalue for="0" value="kottke" />
+          <attvalue for="1" value="kottke" />
+          <attvalue for="2" value="kottke.org" />
+          <attvalue for="3" value="https://mastodon.social/@kottke" />
+          <attvalue for="4" value="24744" />
+          <attvalue for="5" value="26" />
+          <attvalue for="6" value="3047" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111585904638150314" label="111585904638150314">
+        <attvalues>
+          <attvalue for="0" value="quillmatiq" />
+          <attvalue for="1" value="quillmatiq" />
+          <attvalue for="2" value="Anuj Ahooja" />
+          <attvalue for="3" value="https://mastodon.social/@quillmatiq" />
+          <attvalue for="4" value="1329" />
+          <attvalue for="5" value="839" />
+          <attvalue for="6" value="2589" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110441535131897219" label="110441535131897219">
+        <attvalues>
+          <attvalue for="0" value="gutenberg_org" />
+          <attvalue for="1" value="gutenberg_org" />
+          <attvalue for="2" value="Project Gutenberg" />
+          <attvalue for="3" value="https://mastodon.social/@gutenberg_org" />
+          <attvalue for="4" value="58511" />
+          <attvalue for="5" value="48" />
+          <attvalue for="6" value="5857" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="112181615441689686" label="112181615441689686">
+        <attvalues>
+          <attvalue for="0" value="RebeccaSpang" />
+          <attvalue for="1" value="RebeccaSpang" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@RebeccaSpang" />
+          <attvalue for="4" value="60" />
+          <attvalue for="5" value="381" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="19616" label="19616">
+        <attvalues>
+          <attvalue for="0" value="giocomai" />
+          <attvalue for="1" value="giocomai" />
+          <attvalue for="2" value="Giorgio Comai" />
+          <attvalue for="3" value="https://mastodon.social/@giocomai" />
+          <attvalue for="4" value="425" />
+          <attvalue for="5" value="1122" />
+          <attvalue for="6" value="399" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109959927074264355" label="109959927074264355">
+        <attvalues>
+          <attvalue for="0" value="askebrock" />
+          <attvalue for="1" value="askebrock" />
+          <attvalue for="2" value="Aske Laursen Brock" />
+          <attvalue for="3" value="https://mastodon.social/@askebrock" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="19" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="893373" label="893373">
+        <attvalues>
+          <attvalue for="0" value="developerjustin" />
+          <attvalue for="1" value="developerjustin" />
+          <attvalue for="2" value="Justin Ferrell" />
+          <attvalue for="3" value="https://mastodon.social/@developerjustin" />
+          <attvalue for="4" value="806" />
+          <attvalue for="5" value="676" />
+          <attvalue for="6" value="9039" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111984585132440586" label="111984585132440586">
+        <attvalues>
+          <attvalue for="0" value="smkellat" />
+          <attvalue for="1" value="smkellat" />
+          <attvalue for="2" value="Stephen Michael Kellat" />
+          <attvalue for="3" value="https://mastodon.social/@smkellat" />
+          <attvalue for="4" value="194" />
+          <attvalue for="5" value="398" />
+          <attvalue for="6" value="5165" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="598061" label="598061">
+        <attvalues>
+          <attvalue for="0" value="pascaliensis" />
+          <attvalue for="1" value="pascaliensis" />
+          <attvalue for="2" value="Pascal" />
+          <attvalue for="3" value="https://mastodon.social/@pascaliensis" />
+          <attvalue for="4" value="116" />
+          <attvalue for="5" value="127" />
+          <attvalue for="6" value="798" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111301195217680847" label="111301195217680847">
+        <attvalues>
+          <attvalue for="0" value="frederickaplan" />
+          <attvalue for="1" value="frederickaplan" />
+          <attvalue for="2" value="Frederic Kaplan" />
+          <attvalue for="3" value="https://mastodon.social/@frederickaplan" />
+          <attvalue for="4" value="31" />
+          <attvalue for="5" value="22" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="111295592917605395" label="111295592917605395">
+        <attvalues>
+          <attvalue for="0" value="mauforonda" />
+          <attvalue for="1" value="mauforonda" />
+          <attvalue for="2" value="mauforonda" />
+          <attvalue for="3" value="https://mastodon.social/@mauforonda" />
+          <attvalue for="4" value="547" />
+          <attvalue for="5" value="1089" />
+          <attvalue for="6" value="20" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109245063176478371" label="109245063176478371">
+        <attvalues>
+          <attvalue for="0" value="natalieroxburgh" />
+          <attvalue for="1" value="natalieroxburgh" />
+          <attvalue for="2" value="Natalie Roxburgh" />
+          <attvalue for="3" value="https://mastodon.social/@natalieroxburgh" />
+          <attvalue for="4" value="211" />
+          <attvalue for="5" value="384" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110159724652257619" label="110159724652257619">
+        <attvalues>
+          <attvalue for="0" value="kconrad" />
+          <attvalue for="1" value="kconrad" />
+          <attvalue for="2" value="Katie Conrad" />
+          <attvalue for="3" value="https://mastodon.social/@kconrad" />
+          <attvalue for="4" value="21" />
+          <attvalue for="5" value="30" />
+          <attvalue for="6" value="14" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="110266162634306901" label="110266162634306901">
+        <attvalues>
+          <attvalue for="0" value="arstechnica" />
+          <attvalue for="1" value="arstechnica" />
+          <attvalue for="2" value="Ars Technica" />
+          <attvalue for="3" value="https://mastodon.social/@arstechnica" />
+          <attvalue for="4" value="204168" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="9687" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="321779" label="321779">
+        <attvalues>
+          <attvalue for="0" value="gcampax" />
+          <attvalue for="1" value="gcampax" />
+          <attvalue for="2" value="Giovanni Campagna" />
+          <attvalue for="3" value="https://mastodon.social/@gcampax" />
+          <attvalue for="4" value="201" />
+          <attvalue for="5" value="620" />
+          <attvalue for="6" value="1781" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="226196" label="226196">
+        <attvalues>
+          <attvalue for="0" value="scalzi" />
+          <attvalue for="1" value="scalzi" />
+          <attvalue for="2" value="Scalzi" />
+          <attvalue for="3" value="https://mastodon.social/@scalzi" />
+          <attvalue for="4" value="44241" />
+          <attvalue for="5" value="88" />
+          <attvalue for="6" value="1142" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109251695345631642" label="109251695345631642">
+        <attvalues>
+          <attvalue for="0" value="yangfeng" />
+          <attvalue for="1" value="yangfeng" />
+          <attvalue for="2" value="Yangfeng Ji" />
+          <attvalue for="3" value="https://mastodon.social/@yangfeng" />
+          <attvalue for="4" value="209" />
+          <attvalue for="5" value="27" />
+          <attvalue for="6" value="18" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109913066849585282" label="109913066849585282">
+        <attvalues>
+          <attvalue for="0" value="bndktgrs" />
+          <attvalue for="1" value="bndktgrs" />
+          <attvalue for="2" value="Benedikt Groß" />
+          <attvalue for="3" value="https://mastodon.social/@bndktgrs" />
+          <attvalue for="4" value="451" />
+          <attvalue for="5" value="176" />
+          <attvalue for="6" value="1484" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="19522" label="19522">
+        <attvalues>
+          <attvalue for="0" value="VCP" />
+          <attvalue for="1" value="VCP" />
+          <attvalue for="2" value="Exhaust_Fumes_NowMoreThanEver" />
+          <attvalue for="3" value="https://mastodon.social/@VCP" />
+          <attvalue for="4" value="1367" />
+          <attvalue for="5" value="1517" />
+          <attvalue for="6" value="292" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109258222978707995" label="109258222978707995">
+        <attvalues>
+          <attvalue for="0" value="adamgurri" />
+          <attvalue for="1" value="adamgurri" />
+          <attvalue for="2" value="Adam Gurri" />
+          <attvalue for="3" value="https://mastodon.social/@adamgurri" />
+          <attvalue for="4" value="1146" />
+          <attvalue for="5" value="483" />
+          <attvalue for="6" value="1742" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="410616" label="410616">
+        <attvalues>
+          <attvalue for="0" value="kangaroo5383" />
+          <attvalue for="1" value="kangaroo5383" />
+          <attvalue for="2" value="J Lam 👩🏻‍💻👩🏻‍🎨" />
+          <attvalue for="3" value="https://mastodon.social/@kangaroo5383" />
+          <attvalue for="4" value="2513" />
+          <attvalue for="5" value="366" />
+          <attvalue for="6" value="4113" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="26897" label="26897">
+        <attvalues>
+          <attvalue for="0" value="mmasnick" />
+          <attvalue for="1" value="mmasnick" />
+          <attvalue for="2" value="Mike Masnick ✅" />
+          <attvalue for="3" value="https://mastodon.social/@mmasnick" />
+          <attvalue for="4" value="67204" />
+          <attvalue for="5" value="772" />
+          <attvalue for="6" value="7920" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109257023563767118" label="109257023563767118">
+        <attvalues>
+          <attvalue for="0" value="jeffgreene" />
+          <attvalue for="1" value="jeffgreene" />
+          <attvalue for="2" value="Jeff Greene" />
+          <attvalue for="3" value="https://mastodon.social/@jeffgreene" />
+          <attvalue for="4" value="800" />
+          <attvalue for="5" value="407" />
+          <attvalue for="6" value="870" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="38463" label="38463">
+        <attvalues>
+          <attvalue for="0" value="ethanschoonover" />
+          <attvalue for="1" value="ethanschoonover" />
+          <attvalue for="2" value="Ethan J. A. Schoonover" />
+          <attvalue for="3" value="https://mastodon.social/@ethanschoonover" />
+          <attvalue for="4" value="3410" />
+          <attvalue for="5" value="1119" />
+          <attvalue for="6" value="3469" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109897951549644550" label="109897951549644550">
+        <attvalues>
+          <attvalue for="0" value="jonathonschuler" />
+          <attvalue for="1" value="jonathonschuler" />
+          <attvalue for="2" value="Jonathon Schuler" />
+          <attvalue for="3" value="https://mastodon.social/@jonathonschuler" />
+          <attvalue for="4" value="811" />
+          <attvalue for="5" value="4453" />
+          <attvalue for="6" value="177" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109291693145480049" label="109291693145480049">
+        <attvalues>
+          <attvalue for="0" value="rcourt" />
+          <attvalue for="1" value="rcourt" />
+          <attvalue for="2" value="Rachel Courtland" />
+          <attvalue for="3" value="https://mastodon.social/@rcourt" />
+          <attvalue for="4" value="1496" />
+          <attvalue for="5" value="294" />
+          <attvalue for="6" value="251" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109316204406574421" label="109316204406574421">
+        <attvalues>
+          <attvalue for="0" value="aptshadow" />
+          <attvalue for="1" value="aptshadow" />
+          <attvalue for="2" value="Adrian Tchaikovsky" />
+          <attvalue for="3" value="https://mastodon.social/@aptshadow" />
+          <attvalue for="4" value="3749" />
+          <attvalue for="5" value="282" />
+          <attvalue for="6" value="261" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="34541" label="34541">
+        <attvalues>
+          <attvalue for="0" value="sgillies" />
+          <attvalue for="1" value="sgillies" />
+          <attvalue for="2" value="Sean Gillies" />
+          <attvalue for="3" value="https://mastodon.social/@sgillies" />
+          <attvalue for="4" value="791" />
+          <attvalue for="5" value="402" />
+          <attvalue for="6" value="7909" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109248245724223725" label="109248245724223725">
+        <attvalues>
+          <attvalue for="0" value="HPC_Guru" />
+          <attvalue for="1" value="HPC_Guru" />
+          <attvalue for="2" value="HPC Guru" />
+          <attvalue for="3" value="https://mastodon.social/@HPC_Guru" />
+          <attvalue for="4" value="924" />
+          <attvalue for="5" value="29" />
+          <attvalue for="6" value="1157" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109246207331065629" label="109246207331065629">
+        <attvalues>
+          <attvalue for="0" value="dapostrophe" />
+          <attvalue for="1" value="dapostrophe" />
+          <attvalue for="2" value="Cynthia D'Angelo" />
+          <attvalue for="3" value="https://mastodon.social/@dapostrophe" />
+          <attvalue for="4" value="135" />
+          <attvalue for="5" value="102" />
+          <attvalue for="6" value="163" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109246123088278861" label="109246123088278861">
+        <attvalues>
+          <attvalue for="0" value="mimsical" />
+          <attvalue for="1" value="mimsical" />
+          <attvalue for="2" value="Christopher Mims" />
+          <attvalue for="3" value="https://mastodon.social/@mimsical" />
+          <attvalue for="4" value="6485" />
+          <attvalue for="5" value="1913" />
+          <attvalue for="6" value="2772" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="2400" label="2400">
+        <attvalues>
+          <attvalue for="0" value="taylorlorenz" />
+          <attvalue for="1" value="taylorlorenz" />
+          <attvalue for="2" value="Taylor Lorenz" />
+          <attvalue for="3" value="https://mastodon.social/@taylorlorenz" />
+          <attvalue for="4" value="188364" />
+          <attvalue for="5" value="443" />
+          <attvalue for="6" value="1472" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109257982635114466" label="109257982635114466">
+        <attvalues>
+          <attvalue for="0" value="QasimRashid" />
+          <attvalue for="1" value="QasimRashid" />
+          <attvalue for="2" value="Qasim Rashid, Esq." />
+          <attvalue for="3" value="https://mastodon.social/@QasimRashid" />
+          <attvalue for="4" value="82342" />
+          <attvalue for="5" value="111" />
+          <attvalue for="6" value="3546" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109504525764273718" label="109504525764273718">
+        <attvalues>
+          <attvalue for="0" value="EricFrohnhoefer" />
+          <attvalue for="1" value="EricFrohnhoefer" />
+          <attvalue for="2" value="EricFrohnhoefer" />
+          <attvalue for="3" value="https://mastodon.social/@EricFrohnhoefer" />
+          <attvalue for="4" value="2665" />
+          <attvalue for="5" value="98" />
+          <attvalue for="6" value="90" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109373774912342849" label="109373774912342849">
+        <attvalues>
+          <attvalue for="0" value="wonderofscience" />
+          <attvalue for="1" value="wonderofscience" />
+          <attvalue for="2" value="Wonder of Science" />
+          <attvalue for="3" value="https://mastodon.social/@wonderofscience" />
+          <attvalue for="4" value="60649" />
+          <attvalue for="5" value="14" />
+          <attvalue for="6" value="392" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="1" label="1">
+        <attvalues>
+          <attvalue for="0" value="Gargron" />
+          <attvalue for="1" value="Gargron" />
+          <attvalue for="2" value="Eugen Rochko" />
+          <attvalue for="3" value="https://mastodon.social/@Gargron" />
+          <attvalue for="4" value="371344" />
+          <attvalue for="5" value="656" />
+          <attvalue for="6" value="79511" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="35703" label="35703">
+        <attvalues>
+          <attvalue for="0" value="caseynewton" />
+          <attvalue for="1" value="caseynewton" />
+          <attvalue for="2" value="Casey Newton" />
+          <attvalue for="3" value="https://mastodon.social/@caseynewton" />
+          <attvalue for="4" value="48673" />
+          <attvalue for="5" value="222" />
+          <attvalue for="6" value="1572" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109355700962815786" label="109355700962815786">
+        <attvalues>
+          <attvalue for="0" value="georgetakei@universeodon.com" />
+          <attvalue for="1" value="georgetakei" />
+          <attvalue for="2" value="George Takei :verified: 🏳️‍🌈🖖🏽" />
+          <attvalue for="3" value="https://universeodon.com/@georgetakei" />
+          <attvalue for="4" value="449075" />
+          <attvalue for="5" value="36" />
+          <attvalue for="6" value="12856" />
+          <attvalue for="7" value="universeodon.com" />
+        </attvalues>
+      </node>
+      <node id="109284797299145160" label="109284797299145160">
+        <attvalues>
+          <attvalue for="0" value="machinelearning@a.gup.pe" />
+          <attvalue for="1" value="machinelearning" />
+          <attvalue for="2" value="machinelearning group" />
+          <attvalue for="3" value="https://a.gup.pe/u/machinelearning" />
+          <attvalue for="4" value="266" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="827" />
+          <attvalue for="7" value="a.gup.pe" />
+        </attvalues>
+      </node>
+      <node id="109363403077079766" label="109363403077079766">
+        <attvalues>
+          <attvalue for="0" value="machinelearning@techhub.social" />
+          <attvalue for="1" value="machinelearning" />
+          <attvalue for="2" value="machinelearning.sg :verified:" />
+          <attvalue for="3" value="https://techhub.social/@machinelearning" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="30" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="techhub.social" />
+        </attvalues>
+      </node>
+      <node id="109522036349725300" label="109522036349725300">
+        <attvalues>
+          <attvalue for="0" value="angie@androiddev.social" />
+          <attvalue for="1" value="angie" />
+          <attvalue for="2" value="Angie Nguyen 🌱" />
+          <attvalue for="3" value="https://androiddev.social/@angie" />
+          <attvalue for="4" value="45" />
+          <attvalue for="5" value="29" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="androiddev.social" />
+        </attvalues>
+      </node>
+      <node id="109288676922109415" label="109288676922109415">
+        <attvalues>
+          <attvalue for="0" value="ct_bergstrom@fediscience.org" />
+          <attvalue for="1" value="ct_bergstrom" />
+          <attvalue for="2" value="Carl T. Bergstrom" />
+          <attvalue for="3" value="https://fediscience.org/@ct_bergstrom" />
+          <attvalue for="4" value="53631" />
+          <attvalue for="5" value="715" />
+          <attvalue for="6" value="3970" />
+          <attvalue for="7" value="fediscience.org" />
+        </attvalues>
+      </node>
+      <node id="109331373053799696" label="109331373053799696">
+        <attvalues>
+          <attvalue for="0" value="julialang@a.gup.pe" />
+          <attvalue for="1" value="julialang" />
+          <attvalue for="2" value="JuliaLang group" />
+          <attvalue for="3" value="https://a.gup.pe/u/julialang" />
+          <attvalue for="4" value="428" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1187" />
+          <attvalue for="7" value="a.gup.pe" />
+        </attvalues>
+      </node>
+      <node id="109313221379804811" label="109313221379804811">
+        <attvalues>
+          <attvalue for="0" value="ia@mastodon.online" />
+          <attvalue for="1" value="ia" />
+          <attvalue for="2" value="iA" />
+          <attvalue for="3" value="https://mastodon.online/@ia" />
+          <attvalue for="4" value="5017" />
+          <attvalue for="5" value="47" />
+          <attvalue for="6" value="1140" />
+          <attvalue for="7" value="mastodon.online" />
+        </attvalues>
+      </node>
+      <node id="69803" label="69803">
+        <attvalues>
+          <attvalue for="0" value="Framasoft@framapiaf.org" />
+          <attvalue for="1" value="Framasoft" />
+          <attvalue for="2" value="Framasoft" />
+          <attvalue for="3" value="https://framapiaf.org/@Framasoft" />
+          <attvalue for="4" value="41852" />
+          <attvalue for="5" value="326" />
+          <attvalue for="6" value="9846" />
+          <attvalue for="7" value="framapiaf.org" />
+        </attvalues>
+      </node>
+      <node id="111380493736694222" label="111380493736694222">
+        <attvalues>
+          <attvalue for="0" value="tipe_off_pain" />
+          <attvalue for="1" value="tipe_off_pain" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@tipe_off_pain" />
+          <attvalue for="4" value="35" />
+          <attvalue for="5" value="738" />
+          <attvalue for="6" value="32" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109294418797354347" label="109294418797354347">
+        <attvalues>
+          <attvalue for="0" value="visnut@aus.social" />
+          <attvalue for="1" value="visnut" />
+          <attvalue for="2" value="Dr Di Cook" />
+          <attvalue for="3" value="https://aus.social/@visnut" />
+          <attvalue for="4" value="967" />
+          <attvalue for="5" value="820" />
+          <attvalue for="6" value="133" />
+          <attvalue for="7" value="aus.social" />
+        </attvalues>
+      </node>
+      <node id="109497527049648799" label="109497527049648799">
+        <attvalues>
+          <attvalue for="0" value="th3c4rp3n73r@mastodon.online" />
+          <attvalue for="1" value="th3c4rp3n73r" />
+          <attvalue for="2" value="Bill B" />
+          <attvalue for="3" value="https://mastodon.online/@th3c4rp3n73r" />
+          <attvalue for="4" value="55" />
+          <attvalue for="5" value="93" />
+          <attvalue for="6" value="128" />
+          <attvalue for="7" value="mastodon.online" />
+        </attvalues>
+      </node>
+      <node id="109226011749982541" label="109226011749982541">
+        <attvalues>
+          <attvalue for="0" value="brohrer" />
+          <attvalue for="1" value="brohrer" />
+          <attvalue for="2" value="Brandon Rohrer" />
+          <attvalue for="3" value="https://mastodon.social/@brohrer" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="167" />
+          <attvalue for="6" value="63" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114280076715268826" label="114280076715268826">
+        <attvalues>
+          <attvalue for="0" value="hmason@hexa.club" />
+          <attvalue for="1" value="hmason" />
+          <attvalue for="2" value="Hilary" />
+          <attvalue for="3" value="https://hexa.club/@hmason" />
+          <attvalue for="4" value="2775" />
+          <attvalue for="5" value="276" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="hexa.club" />
+        </attvalues>
+      </node>
+      <node id="110131324225423646" label="110131324225423646">
+        <attvalues>
+          <attvalue for="0" value="lisacmuth@vis.social" />
+          <attvalue for="1" value="lisacmuth" />
+          <attvalue for="2" value="Lisa Charlotte Muth" />
+          <attvalue for="3" value="https://vis.social/@lisacmuth" />
+          <attvalue for="4" value="3263" />
+          <attvalue for="5" value="278" />
+          <attvalue for="6" value="51" />
+          <attvalue for="7" value="vis.social" />
+        </attvalues>
+      </node>
+      <node id="109484404763362246" label="109484404763362246">
+        <attvalues>
+          <attvalue for="0" value="jaceklaskowski@fosstodon.org" />
+          <attvalue for="1" value="jaceklaskowski" />
+          <attvalue for="2" value="Jacek Laskowski" />
+          <attvalue for="3" value="https://fosstodon.org/@jaceklaskowski" />
+          <attvalue for="4" value="120" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="24" />
+          <attvalue for="7" value="fosstodon.org" />
+        </attvalues>
+      </node>
+      <node id="109320899984330026" label="109320899984330026">
+        <attvalues>
+          <attvalue for="0" value="profbriancox@universeodon.com" />
+          <attvalue for="1" value="profbriancox" />
+          <attvalue for="2" value="Prof Brian Cox" />
+          <attvalue for="3" value="https://universeodon.com/@profbriancox" />
+          <attvalue for="4" value="38119" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="universeodon.com" />
+        </attvalues>
+      </node>
+      <node id="109365658252980987" label="109365658252980987">
+        <attvalues>
+          <attvalue for="0" value="davidfowl@hachyderm.io" />
+          <attvalue for="1" value="davidfowl" />
+          <attvalue for="2" value="davidfowl :verified:" />
+          <attvalue for="3" value="https://hachyderm.io/@davidfowl" />
+          <attvalue for="4" value="8218" />
+          <attvalue for="5" value="125" />
+          <attvalue for="6" value="333" />
+          <attvalue for="7" value="hachyderm.io" />
+        </attvalues>
+      </node>
+      <node id="109394187836120803" label="109394187836120803">
+        <attvalues>
+          <attvalue for="0" value="inundata@hachyderm.io" />
+          <attvalue for="1" value="inundata" />
+          <attvalue for="2" value="Karthik Ram" />
+          <attvalue for="3" value="https://hachyderm.io/@inundata" />
+          <attvalue for="4" value="951" />
+          <attvalue for="5" value="61" />
+          <attvalue for="6" value="120" />
+          <attvalue for="7" value="hachyderm.io" />
+        </attvalues>
+      </node>
+      <node id="109260093830541357" label="109260093830541357">
+        <attvalues>
+          <attvalue for="0" value="robjhyndman@aus.social" />
+          <attvalue for="1" value="robjhyndman" />
+          <attvalue for="2" value="robjhyndman" />
+          <attvalue for="3" value="https://aus.social/@robjhyndman" />
+          <attvalue for="4" value="1407" />
+          <attvalue for="5" value="299" />
+          <attvalue for="6" value="88" />
+          <attvalue for="7" value="aus.social" />
+        </attvalues>
+      </node>
+      <node id="109435219000039576" label="109435219000039576">
+        <attvalues>
+          <attvalue for="0" value="cosmoquestx@scicomm.xyz" />
+          <attvalue for="1" value="cosmoquestx" />
+          <attvalue for="2" value="CosmoQuest" />
+          <attvalue for="3" value="https://scicomm.xyz/@cosmoquestx" />
+          <attvalue for="4" value="167" />
+          <attvalue for="5" value="27" />
+          <attvalue for="6" value="172" />
+          <attvalue for="7" value="scicomm.xyz" />
+        </attvalues>
+      </node>
+      <node id="109529448224778188" label="109529448224778188">
+        <attvalues>
+          <attvalue for="0" value="fastml@sigmoid.social" />
+          <attvalue for="1" value="fastml" />
+          <attvalue for="2" value="FastML" />
+          <attvalue for="3" value="https://sigmoid.social/@fastml" />
+          <attvalue for="4" value="176" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="16" />
+          <attvalue for="7" value="sigmoid.social" />
+        </attvalues>
+      </node>
+      <node id="109283657545647369" label="109283657545647369">
+        <attvalues>
+          <attvalue for="0" value="Hickl@mastodon.online" />
+          <attvalue for="1" value="Hickl" />
+          <attvalue for="2" value="Andy Hickl" />
+          <attvalue for="3" value="https://mastodon.online/@Hickl" />
+          <attvalue for="4" value="103" />
+          <attvalue for="5" value="66" />
+          <attvalue for="6" value="157" />
+          <attvalue for="7" value="mastodon.online" />
+        </attvalues>
+      </node>
+      <node id="109349864650760475" label="109349864650760475">
+        <attvalues>
+          <attvalue for="0" value="jennybryan@fosstodon.org" />
+          <attvalue for="1" value="jennybryan" />
+          <attvalue for="2" value="Jenny Bryan" />
+          <attvalue for="3" value="https://fosstodon.org/@jennybryan" />
+          <attvalue for="4" value="3229" />
+          <attvalue for="5" value="103" />
+          <attvalue for="6" value="255" />
+          <attvalue for="7" value="fosstodon.org" />
+        </attvalues>
+      </node>
+      <node id="109372878188920164" label="109372878188920164">
+        <attvalues>
+          <attvalue for="0" value="dwizzzle@infosec.exchange" />
+          <attvalue for="1" value="dwizzzle" />
+          <attvalue for="2" value="dwizzzle" />
+          <attvalue for="3" value="https://infosec.exchange/@dwizzzle" />
+          <attvalue for="4" value="1491" />
+          <attvalue for="5" value="69" />
+          <attvalue for="6" value="52" />
+          <attvalue for="7" value="infosec.exchange" />
+        </attvalues>
+      </node>
+      <node id="109484172185286296" label="109484172185286296">
+        <attvalues>
+          <attvalue for="0" value="brunosan@fosstodon.org" />
+          <attvalue for="1" value="brunosan" />
+          <attvalue for="2" value="Bruno Sánchez-Andrade Nuño" />
+          <attvalue for="3" value="https://fosstodon.org/@brunosan" />
+          <attvalue for="4" value="174" />
+          <attvalue for="5" value="114" />
+          <attvalue for="6" value="33" />
+          <attvalue for="7" value="fosstodon.org" />
+        </attvalues>
+      </node>
+      <node id="109258762093949752" label="109258762093949752">
+        <attvalues>
+          <attvalue for="0" value="dave_aitel" />
+          <attvalue for="1" value="dave_aitel" />
+          <attvalue for="2" value="Dave Aitel" />
+          <attvalue for="3" value="https://mastodon.social/@dave_aitel" />
+          <attvalue for="4" value="3434" />
+          <attvalue for="5" value="859" />
+          <attvalue for="6" value="1798" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109214702158432524" label="109214702158432524">
+        <attvalues>
+          <attvalue for="0" value="angebassa" />
+          <attvalue for="1" value="angebassa" />
+          <attvalue for="2" value="Angela (Bassa) Manzo" />
+          <attvalue for="3" value="https://mastodon.social/@angebassa" />
+          <attvalue for="4" value="1370" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109352946332271974" label="109352946332271974">
+        <attvalues>
+          <attvalue for="0" value="warpling" />
+          <attvalue for="1" value="warpling" />
+          <attvalue for="2" value="Ryan McLeod" />
+          <attvalue for="3" value="https://mastodon.social/@warpling" />
+          <attvalue for="4" value="1313" />
+          <attvalue for="5" value="362" />
+          <attvalue for="6" value="72" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109339913369371835" label="109339913369371835">
+        <attvalues>
+          <attvalue for="0" value="neiljhaveri" />
+          <attvalue for="1" value="neiljhaveri" />
+          <attvalue for="2" value="Neil Jhaveri" />
+          <attvalue for="3" value="https://mastodon.social/@neiljhaveri" />
+          <attvalue for="4" value="1267" />
+          <attvalue for="5" value="203" />
+          <attvalue for="6" value="176" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109508846858665050" label="109508846858665050">
+        <attvalues>
+          <attvalue for="0" value="winston_chang" />
+          <attvalue for="1" value="winston_chang" />
+          <attvalue for="2" value="Winston Chang" />
+          <attvalue for="3" value="https://mastodon.social/@winston_chang" />
+          <attvalue for="4" value="547" />
+          <attvalue for="5" value="100" />
+          <attvalue for="6" value="17" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109502260753916593" label="109502260753916593">
+        <attvalues>
+          <attvalue for="0" value="Popehat" />
+          <attvalue for="1" value="Popehat" />
+          <attvalue for="2" value="Ken White" />
+          <attvalue for="3" value="https://mastodon.social/@Popehat" />
+          <attvalue for="4" value="112945" />
+          <attvalue for="5" value="251" />
+          <attvalue for="6" value="1598" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109405024768338394" label="109405024768338394">
+        <attvalues>
+          <attvalue for="0" value="AshaRangappa@masto.ai" />
+          <attvalue for="1" value="AshaRangappa" />
+          <attvalue for="2" value="Asha Rangappa" />
+          <attvalue for="3" value="https://masto.ai/@AshaRangappa" />
+          <attvalue for="4" value="27602" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="masto.ai" />
+        </attvalues>
+      </node>
+      <node id="109378871136888374" label="109378871136888374">
+        <attvalues>
+          <attvalue for="0" value="shanselman@hachyderm.io" />
+          <attvalue for="1" value="shanselman" />
+          <attvalue for="2" value="Scott Hanselman 👸🏽🐝🌮" />
+          <attvalue for="3" value="https://hachyderm.io/@shanselman" />
+          <attvalue for="4" value="40521" />
+          <attvalue for="5" value="1649" />
+          <attvalue for="6" value="3483" />
+          <attvalue for="7" value="hachyderm.io" />
+        </attvalues>
+      </node>
+      <node id="109287238322154670" label="109287238322154670">
+        <attvalues>
+          <attvalue for="0" value="dataandpolitics@mastodon.me.uk" />
+          <attvalue for="1" value="dataandpolitics" />
+          <attvalue for="2" value="Data Bear, PhD 🏳️‍🌈🇺🇦" />
+          <attvalue for="3" value="https://mastodon.me.uk/@dataandpolitics" />
+          <attvalue for="4" value="3096" />
+          <attvalue for="5" value="92" />
+          <attvalue for="6" value="571" />
+          <attvalue for="7" value="mastodon.me.uk" />
+        </attvalues>
+      </node>
+      <node id="108228513830587471" label="108228513830587471">
+        <attvalues>
+          <attvalue for="0" value="emptywheel" />
+          <attvalue for="1" value="emptywheel" />
+          <attvalue for="2" value="emptywheel" />
+          <attvalue for="3" value="https://mastodon.social/@emptywheel" />
+          <attvalue for="4" value="66316" />
+          <attvalue for="5" value="486" />
+          <attvalue for="6" value="1240" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109244667345297775" label="109244667345297775">
+        <attvalues>
+          <attvalue for="0" value="vihart" />
+          <attvalue for="1" value="vihart" />
+          <attvalue for="2" value="Vi Hart" />
+          <attvalue for="3" value="https://mastodon.social/@vihart" />
+          <attvalue for="4" value="4683" />
+          <attvalue for="5" value="13" />
+          <attvalue for="6" value="374" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109286542736248422" label="109286542736248422">
+        <attvalues>
+          <attvalue for="0" value="markhertling@mstdn.social" />
+          <attvalue for="1" value="markhertling" />
+          <attvalue for="2" value="Mark Hertling" />
+          <attvalue for="3" value="https://mstdn.social/@markhertling" />
+          <attvalue for="4" value="35402" />
+          <attvalue for="5" value="55" />
+          <attvalue for="6" value="153" />
+          <attvalue for="7" value="mstdn.social" />
+        </attvalues>
+      </node>
+      <node id="109263575770648911" label="109263575770648911">
+        <attvalues>
+          <attvalue for="0" value="nonfamous@sfba.social" />
+          <attvalue for="1" value="nonfamous" />
+          <attvalue for="2" value="David Smith" />
+          <attvalue for="3" value="https://sfba.social/@nonfamous" />
+          <attvalue for="4" value="953" />
+          <attvalue for="5" value="412" />
+          <attvalue for="6" value="64" />
+          <attvalue for="7" value="sfba.social" />
+        </attvalues>
+      </node>
+      <node id="1133610" label="1133610">
+        <attvalues>
+          <attvalue for="0" value="NASA@mstdn.social" />
+          <attvalue for="1" value="NASA" />
+          <attvalue for="2" value="NASA" />
+          <attvalue for="3" value="https://mstdn.social/@NASA" />
+          <attvalue for="4" value="9934" />
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="1612" />
+          <attvalue for="7" value="mstdn.social" />
+        </attvalues>
+      </node>
+      <node id="109283198109184387" label="109283198109184387">
+        <attvalues>
+          <attvalue for="0" value="MuellerSheWrote@mastodon.online" />
+          <attvalue for="1" value="MuellerSheWrote" />
+          <attvalue for="2" value="Mueller She Wrote" />
+          <attvalue for="3" value="https://mastodon.online/@MuellerSheWrote" />
+          <attvalue for="4" value="29711" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="mastodon.online" />
+        </attvalues>
+      </node>
+      <node id="108336094414393859" label="108336094414393859">
+        <attvalues>
+          <attvalue for="0" value="quanta_bot@social.platypush.tech" />
+          <attvalue for="1" value="quanta_bot" />
+          <attvalue for="2" value="Quanta Magazine" />
+          <attvalue for="3" value="https://social.platypush.tech/@quanta_bot" />
+          <attvalue for="4" value="306" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1948" />
+          <attvalue for="7" value="social.platypush.tech" />
+        </attvalues>
+      </node>
+      <node id="108199991648158833" label="108199991648158833">
+        <attvalues>
+          <attvalue for="0" value="rstats@a.gup.pe" />
+          <attvalue for="1" value="rstats" />
+          <attvalue for="2" value="rstats group" />
+          <attvalue for="3" value="https://a.gup.pe/u/rstats" />
+          <attvalue for="4" value="2061" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="8895" />
+          <attvalue for="7" value="a.gup.pe" />
+        </attvalues>
+      </node>
+      <node id="459969" label="459969">
+        <attvalues>
+          <attvalue for="0" value="neiltyson" />
+          <attvalue for="1" value="neiltyson" />
+          <attvalue for="2" value="Neil deGrasse Tyson" />
+          <attvalue for="3" value="https://mastodon.social/@neiltyson" />
+          <attvalue for="4" value="5702" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="463511" label="463511">
+        <attvalues>
+          <attvalue for="0" value="Cmastication" />
+          <attvalue for="1" value="Cmastication" />
+          <attvalue for="2" value="JD Long ✅" />
+          <attvalue for="3" value="https://mastodon.social/@Cmastication" />
+          <attvalue for="4" value="3283" />
+          <attvalue for="5" value="2149" />
+          <attvalue for="6" value="3560" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="29256" label="29256">
+        <attvalues>
+          <attvalue for="0" value="AstroKatie" />
+          <attvalue for="1" value="AstroKatie" />
+          <attvalue for="2" value="Katie Mack" />
+          <attvalue for="3" value="https://mastodon.social/@AstroKatie" />
+          <attvalue for="4" value="37782" />
+          <attvalue for="5" value="541" />
+          <attvalue for="6" value="134" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="108196926365234436" label="108196926365234436">
+        <attvalues>
+          <attvalue for="0" value="Pwnallthethings" />
+          <attvalue for="1" value="Pwnallthethings" />
+          <attvalue for="2" value="Pwnallthethings" />
+          <attvalue for="3" value="https://mastodon.social/@Pwnallthethings" />
+          <attvalue for="4" value="71719" />
+          <attvalue for="5" value="707" />
+          <attvalue for="6" value="1214" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109288075101170190" label="109288075101170190">
+        <attvalues>
+          <attvalue for="0" value="SwiftOnSecurity@infosec.exchange" />
+          <attvalue for="1" value="SwiftOnSecurity" />
+          <attvalue for="2" value="SwiftOnSecurity" />
+          <attvalue for="3" value="https://infosec.exchange/@SwiftOnSecurity" />
+          <attvalue for="4" value="93253" />
+          <attvalue for="5" value="289" />
+          <attvalue for="6" value="4000" />
+          <attvalue for="7" value="infosec.exchange" />
+        </attvalues>
+      </node>
+      <node id="31767" label="31767">
+        <attvalues>
+          <attvalue for="0" value="Mudge" />
+          <attvalue for="1" value="Mudge" />
+          <attvalue for="2" value="Mudge" />
+          <attvalue for="3" value="https://mastodon.social/@Mudge" />
+          <attvalue for="4" value="2602" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="21" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="29148" label="29148">
+        <attvalues>
+          <attvalue for="0" value="thegrugq" />
+          <attvalue for="1" value="thegrugq" />
+          <attvalue for="2" value="the grugq" />
+          <attvalue for="3" value="https://mastodon.social/@thegrugq" />
+          <attvalue for="4" value="4646" />
+          <attvalue for="5" value="38" />
+          <attvalue for="6" value="167" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114466524928076084" label="114466524928076084">
+        <attvalues>
+          <attvalue for="0" value="spectrum.ieee.org@bsky.brid.gy" />
+          <attvalue for="1" value="spectrum.ieee.org" />
+          <attvalue for="2" value="IEEE Spectrum" />
+          <attvalue for="3" value="https://bsky.brid.gy/r/https://bsky.app/profile/spectrum.ieee.org" />
+          <attvalue for="4" value="26" />
+          <attvalue for="5" value="15" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="bsky.brid.gy" />
+        </attvalues>
+      </node>
+      <node id="113997432540229032" label="113997432540229032">
+        <attvalues>
+          <attvalue for="0" value="yvesdaigle@qlub.social" />
+          <attvalue for="1" value="yvesdaigle" />
+          <attvalue for="2" value="yves d" />
+          <attvalue for="3" value="https://qlub.social/@yvesdaigle" />
+          <attvalue for="4" value="238" />
+          <attvalue for="5" value="1907" />
+          <attvalue for="6" value="471" />
+          <attvalue for="7" value="qlub.social" />
+        </attvalues>
+      </node>
+      <node id="114370265015144938" label="114370265015144938">
+        <attvalues>
+          <attvalue for="0" value="marnixbakker@pixelfed.social" />
+          <attvalue for="1" value="marnixbakker" />
+          <attvalue for="2" value="@kekkebak marnix" />
+          <attvalue for="3" value="https://pixelfed.social/marnixbakker" />
+          <attvalue for="4" value="387" />
+          <attvalue for="5" value="343" />
+          <attvalue for="6" value="42" />
+          <attvalue for="7" value="pixelfed.social" />
+        </attvalues>
+      </node>
+      <node id="113568469131190775" label="113568469131190775">
+        <attvalues>
+          <attvalue for="0" value="Theresacityinmymind@mas.to" />
+          <attvalue for="1" value="Theresacityinmymind" />
+          <attvalue for="2" value="Theresacityinmymind" />
+          <attvalue for="3" value="https://mas.to/@Theresacityinmymind" />
+          <attvalue for="4" value="159" />
+          <attvalue for="5" value="264" />
+          <attvalue for="6" value="3546" />
+          <attvalue for="7" value="mas.to" />
+        </attvalues>
+      </node>
+      <node id="115200072495828908" label="115200072495828908">
+        <attvalues>
+          <attvalue for="0" value="raveregatta" />
+          <attvalue for="1" value="raveregatta" />
+          <attvalue for="2" value="Yeah Whatever" />
+          <attvalue for="3" value="https://mastodon.social/@raveregatta" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="113630357003877826" label="113630357003877826">
+        <attvalues>
+          <attvalue for="0" value="multicellgenome.bsky.social@bsky.brid.gy" />
+          <attvalue for="1" value="multicellgenome.bsky.social" />
+          <attvalue for="2" value="Iñaki Ruiz-Trillo" />
+          <attvalue for="3" value="https://bsky.brid.gy/r/https://bsky.app/profile/multicellgenome.bsky.social" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="bsky.brid.gy" />
+        </attvalues>
+      </node>
+      <node id="109384336686489395" label="109384336686489395">
+        <attvalues>
+          <attvalue for="0" value="grammargirl@zirk.us" />
+          <attvalue for="1" value="grammargirl" />
+          <attvalue for="2" value="Mignon Fogarty" />
+          <attvalue for="3" value="https://zirk.us/@grammargirl" />
+          <attvalue for="4" value="10505" />
+          <attvalue for="5" value="2686" />
+          <attvalue for="6" value="1533" />
+          <attvalue for="7" value="zirk.us" />
+        </attvalues>
+      </node>
+      <node id="114987405684810628" label="114987405684810628">
+        <attvalues>
+          <attvalue for="0" value="dipriya" />
+          <attvalue for="1" value="dipriya" />
+          <attvalue for="2" value="dipriya" />
+          <attvalue for="3" value="https://mastodon.social/@dipriya" />
+          <attvalue for="4" value="910" />
+          <attvalue for="5" value="6034" />
+          <attvalue for="6" value="48" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="115016318000309777" label="115016318000309777">
+        <attvalues>
+          <attvalue for="0" value="element_112" />
+          <attvalue for="1" value="element_112" />
+          <attvalue for="2" value="Element 112" />
+          <attvalue for="3" value="https://mastodon.social/@element_112" />
+          <attvalue for="4" value="152" />
+          <attvalue for="5" value="2903" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="109370405535176566" label="109370405535176566">
+        <attvalues>
+          <attvalue for="0" value="txantxibiri@mastodon.eus" />
+          <attvalue for="1" value="txantxibiri" />
+          <attvalue for="2" value="Txantxibiri" />
+          <attvalue for="3" value="https://mastodon.eus/@txantxibiri" />
+          <attvalue for="4" value="721" />
+          <attvalue for="5" value="4970" />
+          <attvalue for="6" value="3308" />
+          <attvalue for="7" value="mastodon.eus" />
+        </attvalues>
+      </node>
+      <node id="112602726812903759" label="112602726812903759">
+        <attvalues>
+          <attvalue for="0" value="Forestecosystems" />
+          <attvalue for="1" value="Forestecosystems" />
+          <attvalue for="2" value="Forest Ecosystems" />
+          <attvalue for="3" value="https://mastodon.social/@Forestecosystems" />
+          <attvalue for="4" value="77" />
+          <attvalue for="5" value="241" />
+          <attvalue for="6" value="160" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114795567269299209" label="114795567269299209">
+        <attvalues>
+          <attvalue for="0" value="nicolafioretti@mastodon.uno" />
+          <attvalue for="1" value="nicolafioretti" />
+          <attvalue for="2" value="Nicola Fioretti :gnu: :linux:" />
+          <attvalue for="3" value="https://mastodon.uno/@nicolafioretti" />
+          <attvalue for="4" value="162" />
+          <attvalue for="5" value="294" />
+          <attvalue for="6" value="62" />
+          <attvalue for="7" value="mastodon.uno" />
+        </attvalues>
+      </node>
+      <node id="42163" label="42163">
+        <attvalues>
+          <attvalue for="0" value="teixi" />
+          <attvalue for="1" value="teixi" />
+          <attvalue for="2" value="Teixi" />
+          <attvalue for="3" value="https://mastodon.social/@teixi" />
+          <attvalue for="4" value="567" />
+          <attvalue for="5" value="683" />
+          <attvalue for="6" value="3665" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="541871" label="541871">
+        <attvalues>
+          <attvalue for="0" value="christa@friend.camp" />
+          <attvalue for="1" value="christa" />
+          <attvalue for="2" value="christa" />
+          <attvalue for="3" value="https://friend.camp/@christa" />
+          <attvalue for="4" value="967" />
+          <attvalue for="5" value="445" />
+          <attvalue for="6" value="27894" />
+          <attvalue for="7" value="friend.camp" />
+        </attvalues>
+      </node>
+      <node id="115000811491192529" label="115000811491192529">
+        <attvalues>
+          <attvalue for="0" value="PrintsPaintingsPhotos" />
+          <attvalue for="1" value="PrintsPaintingsPhotos" />
+          <attvalue for="2" value="Prints Paintings Photos" />
+          <attvalue for="3" value="https://mastodon.social/@PrintsPaintingsPhotos" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="86" />
+          <attvalue for="6" value="41" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="85812" label="85812">
+        <attvalues>
+          <attvalue for="0" value="pvergain@framapiaf.org" />
+          <attvalue for="1" value="pvergain" />
+          <attvalue for="2" value="pvergain  (framapiaf)" />
+          <attvalue for="3" value="https://framapiaf.org/@pvergain" />
+          <attvalue for="4" value="1066" />
+          <attvalue for="5" value="5196" />
+          <attvalue for="6" value="9776" />
+          <attvalue for="7" value="framapiaf.org" />
+        </attvalues>
+      </node>
+      <node id="113783497857295366" label="113783497857295366">
+        <attvalues>
+          <attvalue for="0" value="retrophotos" />
+          <attvalue for="1" value="retrophotos" />
+          <attvalue for="2" value="Retro Photos" />
+          <attvalue for="3" value="https://mastodon.social/@retrophotos" />
+          <attvalue for="4" value="1409" />
+          <attvalue for="5" value="6598" />
+          <attvalue for="6" value="262" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114764120811244221" label="114764120811244221">
+        <attvalues>
+          <attvalue for="0" value="brianvastag@mas.to" />
+          <attvalue for="1" value="brianvastag" />
+          <attvalue for="2" value="Brian Vastag" />
+          <attvalue for="3" value="https://mas.to/@brianvastag" />
+          <attvalue for="4" value="1842" />
+          <attvalue for="5" value="1318" />
+          <attvalue for="6" value="936" />
+          <attvalue for="7" value="mas.to" />
+        </attvalues>
+      </node>
+      <node id="113826915124409908" label="113826915124409908">
+        <attvalues>
+          <attvalue for="0" value="heatherpaterson.co.uk@bsky.brid.gy" />
+          <attvalue for="1" value="heatherpaterson.co.uk" />
+          <attvalue for="2" value="Heather Paterson" />
+          <attvalue for="3" value="https://bsky.brid.gy/r/https://bsky.app/profile/heatherpaterson.co.uk" />
+          <attvalue for="4" value="129" />
+          <attvalue for="5" value="577" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="bsky.brid.gy" />
+        </attvalues>
+      </node>
+      <node id="114952999544151702" label="114952999544151702">
+        <attvalues>
+          <attvalue for="0" value="kris1@defcon.social" />
+          <attvalue for="1" value="kris1" />
+          <attvalue for="2" value="kris1" />
+          <attvalue for="3" value="https://defcon.social/@kris1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="134" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="defcon.social" />
+        </attvalues>
+      </node>
+      <node id="114713397256432682" label="114713397256432682">
+        <attvalues>
+          <attvalue for="0" value="float13@masto.hackers.town" />
+          <attvalue for="1" value="float13" />
+          <attvalue for="2" value="I am Jack's Found 404" />
+          <attvalue for="3" value="https://masto.hackers.town/@float13" />
+          <attvalue for="4" value="1068" />
+          <attvalue for="5" value="3744" />
+          <attvalue for="6" value="1869" />
+          <attvalue for="7" value="masto.hackers.town" />
+        </attvalues>
+      </node>
+      <node id="113341827297837859" label="113341827297837859">
+        <attvalues>
+          <attvalue for="0" value="AlcorNews" />
+          <attvalue for="1" value="AlcorNews" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="https://mastodon.social/@AlcorNews" />
+          <attvalue for="4" value="553" />
+          <attvalue for="5" value="7477" />
+          <attvalue for="6" value="3616" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+      <node id="114809402485315676" label="114809402485315676">
+        <attvalues>
+          <attvalue for="0" value="Ziplok" />
+          <attvalue for="1" value="Ziplok" />
+          <attvalue for="2" value="Ziplok" />
+          <attvalue for="3" value="https://mastodon.social/@Ziplok" />
+          <attvalue for="4" value="1120" />
+          <attvalue for="5" value="7446" />
+          <attvalue for="6" value="99" />
+          <attvalue for="7" value="mastodon.social" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="106568336162842708" target="466282" id="0">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="466282" target="109512352294413409" id="1">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109310582157669913" target="112413268297098956" id="2">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112410769390923651" target="110209382556951765" id="3">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109512352294413409" target="108290573442688697" id="4">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="108290573442688697" target="109241814031202593" id="5">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109241814031202593" target="17373" id="6">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="17373" target="115249419711571690" id="7">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115249419711571690" target="115089538973889362" id="8">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115089538973889362" target="114109878487078563" id="9">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114109878487078563" target="114262412004999232" id="10">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114262412004999232" target="114146540975738872" id="11">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114146540975738872" target="114089012055430609" id="12">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114089012055430609" target="1201113" id="13">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="1201113" target="113564163294563553" id="14">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113937688324813242" target="111720197563788258" id="15">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113564163294563553" target="113540648331156718" id="16">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113540648331156718" target="111461683767803566" id="17">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111461683767803566" target="109839362806379658" id="18">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111075665817440599" target="110129807492588175" id="19">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110202076640151146" target="113080048114789891" id="20">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109839362806379658" target="112396258678761329" id="21">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112396258678761329" target="107537743192275948" id="22">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="107537743192275948" target="111794970557834988" id="23">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112413268297098956" target="109529448224778188" id="24">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111794970557834988" target="110674062271339016" id="25">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111720197563788258" target="109286951501582812" id="26">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110674062271339016" target="111609078134887957" id="27">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111609078134887957" target="110409650171151990" id="28">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110409650171151990" target="108131746904364667" id="29">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="108131746904364667" target="111345077324768720" id="30">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111345077324768720" target="110354214649252667" id="31">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109326415611965441" target="113568469131190775" id="32">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110129807492588175" target="109365658252980987" id="33">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110354214649252667" target="110769831355713342" id="34">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110769831355713342" target="110766961983485266" id="35">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110766961983485266" target="110667341114696688" id="36">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110667341114696688" target="110652824289488454" id="37">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110652824289488454" target="109302779234360491" id="38">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109302779234360491" target="109824254131337909" id="39">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109824254131337909" target="110537182327606711" id="40">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110537182327606711" target="110235069989497378" id="41">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109286951501582812" target="109372878188920164" id="42">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110235069989497378" target="13179" id="43">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="13179" target="870841" id="44">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="870841" target="115184500281635609" id="45">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115184500281635609" target="115120625779867465" id="46">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115120625779867465" target="115091361782854204" id="47">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115091361782854204" target="114580550524447611" id="48">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114580550524447611" target="115003439810752909" id="49">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115003439810752909" target="114871491455669099" id="50">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114871491455669099" target="113402170275931730" id="51">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113402170275931730" target="1292897" id="52">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="1292897" target="10943" id="53">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="10943" target="114365853169933224" id="54">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114365853169933224" target="112461634985138485" id="55">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112461634985138485" target="113889939967765256" id="56">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113889939967765256" target="113442126244659965" id="57">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113442126244659965" target="113856844671777627" id="58">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113856844671777627" target="113435271589968932" id="59">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113435271589968932" target="113763816994203004" id="60">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113763816994203004" target="113692608122874001" id="61">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113692608122874001" target="113743126042402337" id="62">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113743126042402337" target="113726377529232531" id="63">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113726377529232531" target="113701711776850637" id="64">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113701711776850637" target="113302576248911632" id="65">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113302576248911632" target="113612106840946806" id="66">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113612106840946806" target="113580466842122008" id="67">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113580466842122008" target="113485005846936679" id="68">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113485005846936679" target="113350078674311227" id="69">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113350078674311227" target="111866393669096381" id="70">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111866393669096381" target="113233052447315116" id="71">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113233052447315116" target="107057825694335801" id="72">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="107057825694335801" target="110652193121739862" id="73">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110652193121739862" target="111266912401312685" id="74">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111266912401312685" target="112910721039832763" id="75">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112910721039832763" target="112843801096621182" id="76">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112843801096621182" target="559173" id="77">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="559173" target="112634612724956519" id="78">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112634612724956519" target="109374616082900927" id="79">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109374616082900927" target="39894" id="80">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="39894" target="112466812316237320" id="81">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112466812316237320" target="108196551559051903" id="82">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="108196551559051903" target="213939" id="83">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="213939" target="109252341754783953" id="84">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109252341754783953" target="112339386306332928" id="85">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112339386306332928" target="111585904638150314" id="86">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111585904638150314" target="110441535131897219" id="87">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110441535131897219" target="112181615441689686" id="88">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112181615441689686" target="19616" id="89">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="19616" target="109959927074264355" id="90">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109959927074264355" target="893373" id="91">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="893373" target="111984585132440586" id="92">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111984585132440586" target="598061" id="93">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="598061" target="111301195217680847" id="94">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111301195217680847" target="111295592917605395" id="95">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111295592917605395" target="109245063176478371" id="96">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109245063176478371" target="110159724652257619" id="97">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110159724652257619" target="110266162634306901" id="98">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="110266162634306901" target="321779" id="99">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="321779" target="226196" id="100">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="226196" target="109251695345631642" id="101">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109251695345631642" target="109913066849585282" id="102">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109913066849585282" target="19522" id="103">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="19522" target="109258222978707995" id="104">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109258222978707995" target="410616" id="105">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="410616" target="26897" id="106">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="26897" target="109257023563767118" id="107">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109257023563767118" target="38463" id="108">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="38463" target="109897951549644550" id="109">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109897951549644550" target="109291693145480049" id="110">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109291693145480049" target="109316204406574421" id="111">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109316204406574421" target="34541" id="112">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="34541" target="109248245724223725" id="113">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109248245724223725" target="109246207331065629" id="114">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109246207331065629" target="109246123088278861" id="115">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109246123088278861" target="2400" id="116">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="2400" target="109257982635114466" id="117">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109257982635114466" target="109504525764273718" id="118">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109504525764273718" target="109373774912342849" id="119">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109373774912342849" target="1" id="120">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="1" target="35703" id="121">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="35703" target="111380493736694222" id="122">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109355700962815786" target="109320899984330026" id="123">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109284797299145160" target="109331373053799696" id="124">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109331373053799696" target="108199991648158833" id="125">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109313221379804811" target="109497527049648799" id="126">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="69803" target="85812" id="127">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="111380493736694222" target="109226011749982541" id="128">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109294418797354347" target="109260093830541357" id="129">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109497527049648799" target="109283657545647369" id="130">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109226011749982541" target="109258762093949752" id="131">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109484404763362246" target="109349864650760475" id="132">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109365658252980987" target="109394187836120803" id="133">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109394187836120803" target="109378871136888374" id="134">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109283657545647369" target="109283198109184387" id="135">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109349864650760475" target="109484172185286296" id="136">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109372878188920164" target="109288075101170190" id="137">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109258762093949752" target="109214702158432524" id="138">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109214702158432524" target="109352946332271974" id="139">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109352946332271974" target="109339913369371835" id="140">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109339913369371835" target="109508846858665050" id="141">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109508846858665050" target="109502260753916593" id="142">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109502260753916593" target="108228513830587471" id="143">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="108228513830587471" target="109244667345297775" id="144">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109244667345297775" target="459969" id="145">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="109286542736248422" target="1133610" id="146">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="459969" target="463511" id="147">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="463511" target="29256" id="148">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="29256" target="108196926365234436" id="149">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="108196926365234436" target="31767" id="150">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="31767" target="29148" id="151">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="29148" target="115200072495828908" id="152">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114466524928076084" target="113630357003877826" id="153">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113568469131190775" target="114764120811244221" id="154">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115200072495828908" target="114987405684810628" id="155">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113630357003877826" target="113826915124409908" id="156">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="114987405684810628" target="115016318000309777" id="157">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115016318000309777" target="112602726812903759" id="158">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="112602726812903759" target="42163" id="159">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="42163" target="115000811491192529" id="160">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="115000811491192529" target="113783497857295366" id="161">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113783497857295366" target="113341827297837859" id="162">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+      <edge source="113341827297837859" target="114809402485315676" id="163">
+        <attvalues>
+          <attvalue for="8" value="same_domain" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
